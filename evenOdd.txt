@@ -1,0 +1,24 @@
+Write 3 #A
+Equal #A 1
+Jump1 25
+Rem #A 2
+Write #RV #E
+Equal #E 0
+Jump1 10
+Equal #E 1
+Jump1 16
+Write 1 #PC
+Div #A 2
+Write #RV #A
+Write #A ?SP
+Add #SP 1
+Write #RV #SP
+Write 1 #PC
+Mult #A 3
+Write #RV #A
+Add #A 1
+Write #RV #A
+Write #A ?SP
+Add #SP 1
+Write #RV #SP
+Write 1 #PC
