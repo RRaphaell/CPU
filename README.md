@@ -45,5 +45,5 @@ You can find more information in the excel file where I commented on each line o
 ```
 python compiler.py yourcode.txt outputname.txt
 ```
-4. open myCPU.circ and copy generated outputfilename.txt code into ram
+4. open myCPU.circ and copy generated outputname.txt code into ram
 5. enable clock
